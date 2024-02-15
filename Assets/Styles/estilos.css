@@ -3,28 +3,17 @@
     background-image: url("../img/banner1.jpg");
     padding: 25%;
     background-attachment: fixed;
-
 }
 
-.letra{
-    color: grey;
-    font-size: 50px;
-    font-weight: bold;
-}
-
-a{
-    text-decoration: none;
-}
-
-.fondoreserva{
-    background-image: url("../img/reserva.avif");
-    padding: 25%;
+.fondoproyecto{
+    background-image: url("../img/PROYECTO.jpg");
+    padding: 10%;
     background-attachment: fixed;
     position:relative ;
     z-index: 1;
 }
 
-.fondoreserva::after{
+.fondoproyecto::after{
     position: absolute;
     content: "";
     background-color: black;
